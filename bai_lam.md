@@ -171,9 +171,9 @@ Property :
 ### Bảng lỗi
 
 | STT | Tab DevTools phát hiện lỗi | Tên file hoặc thông báo lỗi                                                                                 | Cách khắc phục                                                                                                 |
-| --- | -------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| --- | -------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 1   | ERR_FILE_NOT_FOUND         | GET file:///D:/Thi-KTMon/starter-kit/phong-thu-am-website/web/images/logo-sound.png net::ERR_FILE_NOT_FOUND | Cập nhật lại tên trong đoạn code từ <img src="images/logo-sound.png" thành <img src="images/logo-soundlab.png" |
-| 2   | Uncaught ReferenceError    | app.js:18 Uncaught ReferenceError: hienThiGoiThuAm is not defined (anonymous) @ app js:18                   |                                                                                                                | Đổi tên "hienThiGoiThuAm();" thành "hienThiGoiThu();" |
+| 2   | Uncaught ReferenceError    | app.js:18 Uncaught ReferenceError: hienThiGoiThuAm is not defined (anonymous) @ app js:18                   | Đổi tên "hienThiGoiThuAm();" thành "hienThiGoiThu();"                                                          |
 
 > Ảnh chụp màn hình lưu trong thư mục `evidence/` (network.png, console.png).
 
